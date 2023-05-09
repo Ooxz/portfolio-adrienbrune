@@ -53,108 +53,301 @@
   <main role="main">
 
     <!-- ***** Work ***** -->
-
-    <section class="work" id="work">
+   
+    
+    <section class="my-work" id="work"> 
       <div class="row">
-        <h2>Mes projets</h2>
-        <div class="work__boxes">
-
-          <!-- Each div with the work__box class is a project. -->
-
-          <div class="work__box">
-            <div class="work__text">
-              <h3>Pic Some</h3>
-              <p>
-                Ceci est une application qui utilise CSS et React avec context ainsi que
-				de nombreux Hooks tels que UseContext, useState, useEffect, useRef.
-				Elle permet d'ajouter les images en favoris ainsi que dans le panier, on peut ensuite vérifier le contenu du panier
-				pour voir le total à payer et lancer la commande. Il est possible de supprimer des images de la commande si on a changé d'avis.
-              </p>
-              <ul class="work__list">
-                <li>JSX</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>React</li>
-              </ul>
-
-              <div class="work__links">
-                <a href="https://pic-some-adrienbrune.netlify.app/" target="_blank" class="link__text">
-                  Visit Site <span>&rarr;</span>
-                </a>
-                <a href="https://github.com/Ooxz/pic-some.git" title="View Source Code" target="_blank">
-                  <img src="./images/github.svg" class="work__code" alt="GitHub">
-                </a>
+        <h2 >Mes projets</h2>
+      </div>
+      <div class="portfolio">
+          <!-- Portfolio item 01 -->
+          <div class="card">
+            <a href="https://pic-some-adrienbrune.netlify.app" target="_blank" class="card-livesite">
+              <img src="images/picsome.png" alt="" class="portfolio__img" title="aperçu">
+            </a>  
+              <div class="card-description">
+                <h3 class="card-title">Pic some</h3>
+                <div class="card-links">
+                  <a href="https://pic-some-adrienbrune.netlify.app" target="_blank" class="card-livesite">
+                    <img src="./images/globe.svg" class="card-livesite" alt="site démo" title="aperçu">
+                  </a>
+                  <a href="https://github.com/Ooxz/pic-some.git" title="View Source Code" target="_blank">
+                    <img src="./images/github.svg" class="card-github__link" alt="GitHub" title="repo">
+                  </a>
+                </div>
+                <p class="card-info">Site d'achat de photos en ligne avec un panier et une option favoris</p>
+                <div class="card-technologies">
+                  <p class="technology">React</p>
+                  <p class="technology">Javascript</p>
+                  <p class="technology">CSS</p>
+                </div>
               </div>
             </div>
-            <div class="work__image-box">
-              <a href="https://pic-some-adrienbrune.netlify.app/" target="_blank">
-              <img src="./images/picsome.png" class="work__image" alt="Project 1" />
-            </a>
-            </div>
-          </div>
-
-          <div class="work__box">
-            <div class="work__text">
-              <h3>Tenzies</h3>
-              <p>
-                Ceci est un site web qui utilise CSS et React avec les Hooks useEffect et useState. J'ai également utilisé
-				la bibliothèque NanoID qui est un générateur aléatoire d'id.
-				C'est un jeu ou l'objecif est de garder un chiffre en particulier et d'essayer
-				d'avoir ce même chiffre sur tous les dés pour gagner la partie. 
-				J'ai rajouté le nombre d'essais par partie et j'ai créé un timer que l'on peut décider
-				de lancer d'arrêter ou de reset.
-              </p>
-              <ul class="work__list">
-                <li>React</li>
-                <li>Javascript</li>
-                <li>JSX</li>
-                <li>CSS</li>
-              </ul>
-
-              <div class="work__links">
-                <a href="#" class="link__text">
-                  Visit Site <span>&rarr;</span>
-                </a>
-                <a href="#">
-                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
-                </a>
+           
+          <!-- Portfolio item 02 -->
+          <div class="card">
+            <a href="https://pic-some-adrienbrune.netlify.app" target="_blank" class="card-livesite">
+              <img src="images/les-petits-plats.png" alt="" class="portfolio__img" title="aperçu">
+            </a>  
+              <div class="card-description">
+                <h3 class="card-title">Les Petits Plats</h3>
+                <div class="card-links">
+                  <a href="https://les-petits-plats-adrienbrune.netlify.app/" target="_blank" class="card-livesite">
+                    <img src="./images/globe.svg" class="card-livesite" alt="site démo" title="aperçu">
+                  </a>
+                  <a href="https://github.com/Ooxz/les-petits-plats.git" title="View Source Code" target="_blank">
+                    <img src="./images/github.svg" class="card-github__link" alt="GitHub" title="repo">
+                  </a>
+                </div>
+                <p class="card-info">Site de recette avec barre et onglets de recherche</p>
+                <div class="card-technologies">
+                  <p class="technology">Javascript</p>
+                  <p class="technology">CSS</p>
+                  <p class="technology">algorithme</p>
+                </div>
               </div>
             </div>
-            <div class="work__image-box">
-              <img src="./images/tenzies.png" class="work__image" alt="Project 1" />
-            </div>
-          </div>
 
-          <div class="work__box">
-            <div class="work__text">
-              <h3>Quizzical App</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
-                eius.
-              </p>
-              <ul class="work__list">
-                <li>React</li>
-                <li>Next.js</li>
-                <li>Node</li>
-                <li>MongoDB</li>
-              </ul>
-
-              <div class="work__links">
-                <a href="#" class="link__text">
-                  Visit Site <span>&rarr;</span>
-                </a>
-                <a href="#">
-                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
-                </a>
+          
+          <!-- Portfolio item 03 -->
+          <div class="card">
+            <a href="https://tenzies-adrienbrune.netlify.app/" target="_blank" class="card-livesite">
+              <img src="images/tenzies.png" alt="" class="portfolio__img" title="aperçu">
+            </a>  
+              <div class="card-description">
+                <h3 class="card-title">Tenzies</h3>
+                <div class="card-links">
+                  <a href="https://tenzies-adrienbrune.netlify.app/" target="_blank" class="card-livesite">
+                    <img src="./images/globe.svg" class="card-livesite" alt="site démo" title="aperçu">
+                  </a>
+                  <a href="https://github.com/Ooxz/tenzies.git" title="View Source Code" target="_blank">
+                    <img src="./images/github.svg" class="card-github__link" alt="GitHub" title="repo">
+                  </a>
+                </div>
+                <p class="card-info">Un jeu de dés. Le but est d'avoir 10 dés identiques le plus vite possible.</p>
+                <div class="card-technologies">
+                  <p class="technology">React</p>
+                  <p class="technology">Javascript</p>
+                  <p class="technology">CSS</p>
+                </div>
               </div>
             </div>
-            <div class="work__image-box">
-              <img src="./images/quiz.jpg" class="work__image" alt="Project 3" />
+
+          <!-- Portfolio item 04 -->
+          <div class="card">
+            <a href="https://pic-some-adrienbrune.netlify.app" target="_blank" class="card-livesite">
+              <img src="images/picsome.png" alt="" class="portfolio__img" title="aperçu">
+            </a>  
+              <div class="card-description">
+                <h3 class="card-title">Pic some</h3>
+                <div class="card-links">
+                  <a href="https://pic-some-adrienbrune.netlify.app" target="_blank" class="card-livesite">
+                    <img src="./images/globe.svg" class="card-livesite" alt="site démo" title="aperçu">
+                  </a>
+                  <a href="https://github.com/Ooxz/pic-some.git" title="View Source Code" target="_blank">
+                    <img src="./images/github.svg" class="card-github__link" alt="GitHub" title="repo">
+                  </a>
+                </div>
+                <p class="card-info">Site d'achat de photos en ligne</p>
+                <div class="card-technologies">
+                  <p class="technology">React</p>
+                  <p class="technology">Javascript</p>
+                  <p class="technology">CSS</p>
+                </div>
+              </div>
+            </div>
+          <!-- <div>
+              <p>React</p>
+          <a href="meme-generator.html" class="portfolio__item">
+              <img src="img/meme-generator.png" alt="" class="portfolio__img">
+          </a>
+      </div> -->
+          
+          <!-- Portfolio item 05 -->
+          <div class="card">
+            <a href="https://pic-some-adrienbrune.netlify.app" target="_blank" class="card-livesite">
+              <img src="images/picsome.png" alt="" class="portfolio__img" title="aperçu">
+            </a>  
+              <div class="card-description">
+                <h3 class="card-title">Pic some</h3>
+                <div class="card-links">
+                  <a href="https://pic-some-adrienbrune.netlify.app" target="_blank" class="card-livesite">
+                    <img src="./images/globe.svg" class="card-livesite" alt="site démo" title="aperçu">
+                  </a>
+                  <a href="https://github.com/Ooxz/pic-some.git" title="View Source Code" target="_blank">
+                    <img src="./images/github.svg" class="card-github__link" alt="GitHub" title="repo">
+                  </a>
+                </div>
+                <p class="card-info">Site d'achat de photos en ligne</p>
+                <div class="card-technologies">
+                  <p class="technology">React</p>
+                  <p class="technology">Javascript</p>
+                  <p class="technology">CSS</p>
+                </div>
+              </div>
+            </div>
+          <!-- <div>
+              <p>React</p>
+          <a href="airbnb-clone.html" class="portfolio__item">
+              <img src="img/airbnb-clone.png" alt="" class="portfolio__img">
+          </a>
+      </div> -->
+          
+          <!-- Portfolio item 06 -->
+          <div class="card">
+            <a href="https://pic-some-adrienbrune.netlify.app" target="_blank" class="card-livesite">
+              <img src="images/picsome.png" alt="" class="portfolio__img" title="aperçu">
+            </a>  
+              <div class="card-description">
+                <h3 class="card-title">Pic some</h3>
+                <div class="card-links">
+                  <a href="https://pic-some-adrienbrune.netlify.app" target="_blank" class="card-livesite">
+                    <img src="./images/globe.svg" class="card-livesite" alt="site démo" title="aperçu">
+                  </a>
+                  <a href="https://github.com/Ooxz/pic-some.git" title="View Source Code" target="_blank">
+                    <img src="./images/github.svg" class="card-github__link" alt="GitHub" title="repo">
+                  </a>
+                </div>
+                <p class="card-info">Site d'achat de photos en ligne</p>
+                <div class="card-technologies">
+                  <p class="technology">React</p>
+                  <p class="technology">Javascript</p>
+                  <p class="technology">CSS</p>
+                </div>
+              </div>
+            </div>
+          <!-- <div>
+              <p>Javascript</p>
+          <a href="les-petits-plats.html" class="portfolio__item">
+              <img src="img/les-petits-plats.png" alt="" class="portfolio__img">
+          </a>
+      </div> -->
+
+      <!-- Portfolio item 07 -->
+      <div class="card">
+        <a href="https://pic-some-adrienbrune.netlify.app" target="_blank" class="card-livesite">
+          <img src="images/picsome.png" alt="" class="portfolio__img" title="aperçu">
+        </a>  
+          <div class="card-description">
+            <h3 class="card-title">Pic some</h3>
+            <div class="card-links">
+              <a href="https://pic-some-adrienbrune.netlify.app" target="_blank" class="card-livesite">
+                <img src="./images/globe.svg" class="card-livesite" alt="site démo" title="aperçu">
+              </a>
+              <a href="https://github.com/Ooxz/pic-some.git" title="View Source Code" target="_blank">
+                <img src="./images/github.svg" class="card-github__link" alt="GitHub" title="repo">
+              </a>
+            </div>
+            <p class="card-info">Site d'achat de photos en ligne</p>
+            <div class="card-technologies">
+              <p class="technology">React</p>
+              <p class="technology">Javascript</p>
+              <p class="technology">CSS</p>
             </div>
           </div>
         </div>
+          <!-- <div>
+              <p>Javascript, API</p>
+          <a href="dashboard.html" class="portfolio__item">
+              <img src="img/dashboard.png" alt="" class="portfolio__img">
+          </a>
+      </div> -->
+
+           <!-- Portfolio item 08 -->
+           <div class="card">
+            <a href="https://pic-some-adrienbrune.netlify.app" target="_blank" class="card-livesite">
+              <img src="images/picsome.png" alt="" class="portfolio__img" title="aperçu">
+            </a>  
+              <div class="card-description">
+                <h3 class="card-title">Pic some</h3>
+                <div class="card-links">
+                  <a href="https://pic-some-adrienbrune.netlify.app" target="_blank" class="card-livesite">
+                    <img src="./images/globe.svg" class="card-livesite" alt="site démo" title="aperçu">
+                  </a>
+                  <a href="https://github.com/Ooxz/pic-some.git" title="View Source Code" target="_blank">
+                    <img src="./images/github.svg" class="card-github__link" alt="GitHub" title="repo">
+                  </a>
+                </div>
+                <p class="card-info">Site d'achat de photos en ligne</p>
+                <div class="card-technologies">
+                  <p class="technology">React</p>
+                  <p class="technology">Javascript</p>
+                  <p class="technology">CSS</p>
+                </div>
+              </div>
+            </div>
+           <!-- <div>
+              <p>Javascript</p>
+          <a href="fisheye.html" class="portfolio__item">
+              <img src="img/fisheye.png" alt="" class="portfolio__img">
+          </a>
+      </div> -->
+         
+         
+          <!-- Portfolio item 08 -->
+          <div class="card">
+            <a href="https://pic-some-adrienbrune.netlify.app" target="_blank" class="card-livesite">
+              <img src="images/picsome.png" alt="" class="portfolio__img" title="aperçu">
+            </a>  
+              <div class="card-description">
+                <h3 class="card-title">Pic some</h3>
+                <div class="card-links">
+                  <a href="https://pic-some-adrienbrune.netlify.app" target="_blank" class="card-livesite">
+                    <img src="./images/globe.svg" class="card-livesite" alt="site démo" title="aperçu">
+                  </a>
+                  <a href="https://github.com/Ooxz/pic-some.git" title="View Source Code" target="_blank">
+                    <img src="./images/github.svg" class="card-github__link" alt="GitHub" title="repo">
+                  </a>
+                </div>
+                <p class="card-info">Site d'achat de photos en ligne</p>
+                <div class="card-technologies">
+                  <p class="technology">React</p>
+                  <p class="technology">Javascript</p>
+                  <p class="technology">CSS</p>
+                </div>
+              </div>
+            </div>
+          <!-- <div>
+              <p>Javascript, Firebase</p>
+          <a href="add-to-cart-item.html" class="portfolio__item">
+              <img src="img/add-to-cart.png" alt="" class="portfolio__img">
+          </a>
+      </div> -->
+
+      <!-- Portfolio item 09 -->
+      <div class="card">
+        <a href="https://pic-some-adrienbrune.netlify.app" target="_blank" class="card-livesite">
+          <img src="images/picsome.png" alt="" class="portfolio__img" title="aperçu">
+        </a>  
+          <div class="card-description">
+            <h3 class="card-title">Pic some</h3>
+            <div class="card-links">
+              <a href="https://pic-some-adrienbrune.netlify.app" target="_blank" class="card-livesite">
+                <img src="./images/globe.svg" class="card-livesite" alt="site démo" title="aperçu">
+              </a>
+              <a href="https://github.com/Ooxz/pic-some.git" title="View Source Code" target="_blank">
+                <img src="./images/github.svg" class="card-github__link" alt="GitHub" title="repo">
+              </a>
+            </div>
+            <p class="card-info">Site d'achat de photos en ligne</p>
+            <div class="card-technologies">
+              <p class="technology">React</p>
+              <p class="technology">Javascript</p>
+              <p class="technology">CSS</p>
+            </div>
+          </div>
+        </div>
+      <!-- <div>
+          <p>Typescript</p>
+      <a href="couchsurfing.html" class="portfolio__item">
+          <img src="img/couchsurfing.png" alt="" class="portfolio__img">
+      </a>
+  </div> -->
+      
+         
+
       </div>
-    </section>
+  </section>
 
     <section class="about" id="about">
       <div class="row">
