@@ -540,7 +540,8 @@ body:not(.user-is-tabbing) a:focus {
     border: solid 1px black;
     border-radius: 5px;
     padding: 2px 5px;
-    color: black;
+    color: white;
+    background-color: black;
     margin: 0 0 0 10px;
     font-weight: bold;
     font-size: 12px;
@@ -558,8 +559,19 @@ body:not(.user-is-tabbing) a:focus {
     align-items: center;
 }
 
+.about__text {
+    display: flex;
+    flex-direction: column;
+}
+
 .about__text > a {
     margin-top: 20px;
+    width: 250px;
+    padding: 10px 42px;
+}
+
+.about__photo {
+    border-radius: 10px;
 }
 
 @media(max-width: 900px) {
