@@ -215,6 +215,7 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .btn {
+    text-align: center;
     position: relative;
     display: inline-block;
     padding: 1rem 4.2rem;
@@ -450,6 +451,17 @@ body:not(.user-is-tabbing) a:focus {
     transform: scale(0.98);
 }
 
+.portfolio__img-nolink {
+    width: 100%;
+    height: auto;
+    max-height: 276px;
+    min-height: 276px;
+    object-fit: contain;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    transition: transform .5s;
+}
+
 .portfolio__item:focus {
     position: relative;
     z-index: 2;
@@ -500,8 +512,10 @@ body:not(.user-is-tabbing) a:focus {
     transform: scale(1.2);
 }
 
+.card-livesite-off {
+    height: 2rem;
+}
  
-
 .card-github__link:hover {
     transform: scale(1.2);
 }
