@@ -315,6 +315,7 @@ body:not(.user-is-tabbing) a:focus {
     list-style: none;
 }
 
+
 .nav__item:not(:last-child) {
     margin-right: var(--gutter-medium);
 }
@@ -325,13 +326,13 @@ body:not(.user-is-tabbing) a:focus {
     }
 }
 
-@media(max-width: 400px) {
+@media(max-width: 430px) {
     .nav__item:not(:last-child) {
         margin-right: var(--gutter-normal);
     }
 }
 
-@media(max-width: 300px) {
+@media(max-width: 330px) {
     .nav {
         font-size: var(--font-size-small);
     }
@@ -385,6 +386,16 @@ body:not(.user-is-tabbing) a:focus {
     background: var(--pink);
 }
 
+.header__social-image {
+    height: 4rem;
+}
+
+
+.flags {
+    width: 40px;
+    height: auto;
+}
+
 
 /* --------------------------------------- */
 /* ----- Header ----- */
@@ -414,19 +425,6 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 
-.flags {
-    width: 40px;
-}
-
-@media(max-width: 500px) {
-    .header {
-        text-align: center;
-    }
-
-    .header__text p {
-        transform: scale(.8);
-    }
-}
 
 /* --------------------------------------- */
 /* ----- Work and cards ----- */
@@ -438,12 +436,7 @@ body:not(.user-is-tabbing) a:focus {
     color: var(--color-light);    
 }
 
-@media(max-width: 629px) {
-    .portfolio {
-        place-items: center;
 
-    }
-}
 
 .portfolio {
     margin: 0 auto;
@@ -451,12 +444,21 @@ body:not(.user-is-tabbing) a:focus {
     display: grid;
     grid-gap: 2em;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    place-items: center;
 }
+
+@media(max-width: 1119px) {
+    .portfolio {
+        grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+        grid-column-gap: 1em;
+    }
+}
+
+
 
 .portfolio__item {
     background: var(--color-accent);
     overflow: hidden;
-
 }
 
 .portfolio__img {
