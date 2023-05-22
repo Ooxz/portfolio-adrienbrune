@@ -405,16 +405,15 @@ body:not(.user-is-tabbing) a:focus {
     background: linear-gradient(rgba(0,0,0, .1), rgba(0,0,0, .4)), 
         url('./images/services-bg3.jpg');
     height: 100vh;
+    min-height: 650px;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     font-size: var(--font-size-normal);
 }
 
-.header__text {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+.header__text { 
+    top: 40%;
 }
 
 .header__text p {
